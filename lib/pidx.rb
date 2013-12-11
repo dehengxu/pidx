@@ -18,6 +18,7 @@ module Pidx
       f = open("|" + cmd)
       r = f.read()
   
+      # Fetch first line.
       r = r.split("\n")[0];
   
       # Check keyword 'grep'
