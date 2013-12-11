@@ -36,7 +36,7 @@ module Pidx
       if pid == nil
         puts name + " current not running!"
       else
-        puts "kill pid :" + pid
+        puts "kill " + name +" pid :" + pid
         system('sudo kill ' + pid)  
       end
     end
